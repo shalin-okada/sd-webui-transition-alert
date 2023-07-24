@@ -1,6 +1,6 @@
 window.addEventListener("beforeunload", (e) => {
-  const message = "Are you sure you want to leave?";
   e.preventDefault();
+  const message = "Are you sure you want to leave?";
   e.returnValue = message;
   return message;
 });
